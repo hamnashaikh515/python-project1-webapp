@@ -1,6 +1,6 @@
 #imports
-import streamlit as st # type: ignore
-import pandas as pd # type: ignore
+import streamlit as st 
+import pandas as pd 
 import os
 from io import BytesIO
 
@@ -81,4 +81,4 @@ if uploaded_files:
                 file_name=file_name
             )
 
-st.success("🎉 All files processed!")
+            st.success("🎉 All files processed!")
